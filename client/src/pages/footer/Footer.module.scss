@@ -1,0 +1,64 @@
+.wrapper {
+  width: 100vw;
+  margin: 20px 0;
+  margin-bottom: 60px;
+  .contact{
+  display: flex;
+  justify-content: center;
+}
+}
+
+.column{
+    margin-top: 20px;
+    display:  flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    span{
+      margin-left: 20px;
+    }
+    h2{
+      font-weight: 700;
+    }
+  }
+
+// .contact {
+//   padding: 0 20px;
+//   margin-top: 30px;
+//   h2 {
+//     font-size: 2rem;
+//     margin-bottom: 20px;
+//     font-weight: 500;
+//   }
+//   p {
+//     line-height: 28px;
+//     a:hover {
+//       color: var(--primary);
+//     }
+//   }
+// }
+
+// .information {
+//   svg {
+//     padding-right: 10px;
+//     font-size: 1.6rem;
+//   }
+// }
+
+// // responsive
+// @media (min-width: 740px) and (max-width: 1023px) {
+//   .fanpage {
+//     padding: 20px 0px 30px;
+//   }
+// }
+
+// @media (max-width: 740px) {
+//   .fanpage {
+//     padding: 20px 0px 30px;
+//     text-align: center;
+//   }
+//   .link,
+//   .information {
+//     text-align: center;
+//   }
+// }

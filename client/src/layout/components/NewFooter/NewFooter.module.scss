@@ -1,0 +1,32 @@
+.running-text-container {
+  overflow: hidden;
+  white-space: nowrap;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.8;
+  .running-text {
+  display: flex;
+  padding: 10px 0;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  display: inline-block;
+  animation: runningText 20s linear infinite; /* Điều chỉnh thời gian và kiểu chuyển động theo mong muốn */
+  
+}
+
+}
+
+
+
+@keyframes runningText {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,59 @@
+.wrapper {
+	width: 100%;
+	height: 60px;
+	top: 0;
+	z-index: 999;
+	position: fixed;
+	background-color: white;
+	box-shadow: 5px 5px 10px rgba(155, 152, 152, 0.5);
+	
+	
+	ul {
+		padding:0 20px 0 20px;
+		height: 100%;
+		display: flex;
+		gap: 20px;
+		align-items: center;
+		justify-content: flex-end;
+
+		li {
+
+			a,
+			.login-item {
+				font-family: "Helvetica", sans-serif !important;
+				font-size: 1.4rem;
+				font-weight: 600;
+				text-transform: uppercase;
+
+				&.active {
+					color: var(--secondary);
+				}
+				&:hover {
+					color: #d0021b;
+          			cursor: pointer;
+				}
+			}
+      		.login {
+        		display: flex;
+				gap: 20px;
+				position: relative;
+		
+		.logout{
+			position: absolute;
+			right: 0;
+			top: 100%;
+			margin: 0 auto;
+			border-radius: 5px;
+			background: gray;
+			padding: 10px;
+		}
+      }
+	  
+		}
+	}
+}
+
+.logo {
+	width: 100%;
+	cursor: pointer;
+}
